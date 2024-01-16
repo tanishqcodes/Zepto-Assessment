@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  font-weight: bold; 
+  color: blue;
+  font-size: x-large;
+}
+
+.TextField-root {
+  width: 500px;
+}
+
+.chips-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.chip {
+  margin-right: 8px;
+}
+
+.items-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items-list li {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
+}
+
+.items-list li:hover {
+  background-color: #f0f0f0;
+}
